@@ -1,0 +1,39 @@
+Train Confusion Matrix
+[[2086   12]
+ [ 180 1784]]
+Train Evaluation Report
+              precision    recall  f1-score   support
+
+           e       0.92      0.99      0.96      2098
+           p       0.99      0.91      0.95      1964
+
+    accuracy                           0.95      4062
+   macro avg       0.96      0.95      0.95      4062
+weighted avg       0.96      0.95      0.95      4062
+
+Test Confusion Matrix
+[[2099   11]
+ [ 166 1786]]
+Test Evaluation Report
+              precision    recall  f1-score   support
+
+           e       0.93      0.99      0.96      2110
+           p       0.99      0.91      0.95      1952
+
+    accuracy                           0.96      4062
+   macro avg       0.96      0.95      0.96      4062
+weighted avg       0.96      0.96      0.96      4062
+
+Majority Rule Confusion Matrix
+[[   0 2110]
+ [   0 1952]]
+Majority Rule Evaluation Report
+              precision    recall  f1-score   support
+
+           e       0.00      0.00      0.00      2110
+           p       0.48      1.00      0.65      1952
+
+    accuracy                           0.48      4062
+   macro avg       0.24      0.50      0.32      4062
+weighted avg       0.23      0.48      0.31      4062
+

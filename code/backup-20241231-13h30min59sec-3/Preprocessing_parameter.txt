@@ -1,0 +1,4 @@
+Fill missing values option: Depending on column data
+Normalization: False
+Discretization: based entropy
+Bins number: 3
